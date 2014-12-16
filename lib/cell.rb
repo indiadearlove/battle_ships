@@ -17,7 +17,7 @@ class Cell
     @shot = :shot
   end
 
-  def place_ship
+  def place_ship(ship)
     @cell = :not_empty
   end
 

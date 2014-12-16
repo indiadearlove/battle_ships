@@ -10,7 +10,7 @@ describe "Cell" do
   end
 
   it "should know when it is occupied" do
-    cell.place_ship
+    cell.place_ship(ship)
     expect(cell.cell_status).to eq(:not_empty)
   end
 
@@ -24,7 +24,7 @@ describe "Cell" do
   end
 
   it "should be able to tell you if it has been hit" do
-    cell.place_ship
+    cell.place_ship(ship)
     cell.shot
     expect(cell.hit_status).to eq(:hit)
   end
