@@ -29,4 +29,9 @@ describe "Cell" do
     expect(cell.hit_status).to eq(:hit)
   end
 
+  it "should be able to tell you if it is a miss" do
+    cell.shot
+    expect(cell.hit_status).to eq(:miss)
+  end
+
 end
