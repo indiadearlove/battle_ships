@@ -8,4 +8,8 @@ describe 'Board' do
     expect(board.exist).to eq(true)
   end
 
+  xit 'should have a grid of 100 cells' do
+    expect(board.grid).to 
+  end
+
 end

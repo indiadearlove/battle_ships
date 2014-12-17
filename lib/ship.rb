@@ -7,24 +7,24 @@ class Ship
     @size = size
   end
 
-  def self.ship_1
-    new('ship_1', 5)
+  def self.aircraft_carrier
+    new('aircraft_carrier', 5)
   end
 
-  def self.ship_2
-    new('ship_2', 4)
+  def self.battleship
+    new('battleship', 4)
   end
 
-  def self.ship_3
-    new('ship_3', 3)
+  def self.submarine
+    new('submarine', 3)
   end
 
-  def self.ship_4
-    new('ship_4', 3)
+  def self.cruiser
+    new('cruiser', 3)
   end
 
-  def self.ship_5
-    new('ship_5', 2)
+  def self.destroyer
+    new('destroyer', 2)
   end
 
 end
